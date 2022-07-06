@@ -8,7 +8,7 @@ You have been tasked with writing a script that will be run at the end of every 
 
 1. Fetch the source data
 
-The souce data can be access by sending a ```HTTP GET``` request to ```https://source.bluefruit.co.uk/api/days```
+The souce data can be access by sending a ```HTTP GET``` request to ```https://timetracking.bluefruit.co.uk/api/days```
 
 The returned JSON data will be formatted as below:
 
@@ -57,7 +57,7 @@ date,synth,fridge
 
 3. Upload the CSV
 
-Upload the CSV data using a ```HTTP PUT``` request to ```https://destination.bluefruit.co.uk/upload/<id>.csv``` where ```id``` is a UUID (or GUID) you have generated.
+Upload the CSV data using a ```HTTP PUT``` request to ```https://accounts.bluefruit.co.uk/upload/<id>.csv``` where ```id``` is a UUID (or GUID) you have generated.
 
 The ```PUT``` request will require a key sent as a HTTP header to allow the data to be uploaded.
 
