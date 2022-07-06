@@ -2,7 +2,7 @@
 
 The Bluefruit finance department need to know how many people have worked on specific projects so they can check they are billing clients the correct amount.
 
-You have been tasked with writing a script that will be run at the end of every week to process and transfer the timesheet records to the accounting system. You do not need to implementing the scheduling to run the script.
+You have been tasked with writing a script that will be run at the end of every week to process and transfer the timesheet records to the accounting system. You do not need to implement the scheduling to run the script.
 
 ## Process
 
@@ -61,22 +61,18 @@ Upload the CSV data using a ```HTTP PUT``` request to ```https://destination.blu
 
 The ```PUT``` request will require a key sent as a HTTP header to allow the data to be uploaded.
 
-```uploadkey:123456```
+```upload-key:95341ee6-4efc-4148-9619-b4b800b9eeb6```
 
 The response to the ```PUT``` request will indicate if the upload was successful or not.
 
 On success:
 ```json
-{
-  "result": "ok"
-}
+{"result": "ok"}
 ```
 
 On failure:
 ```json
-{
-  "result": "fail"
-}
+{"result": "fail"}
 ```
 
 # Submission
