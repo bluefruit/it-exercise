@@ -31,8 +31,7 @@ The returned JSON data will be formatted as below:
     "project": "synth",
     "start": "2022-06-27",
     "end": "2022-07-05"
-  },
-  // ...
+  }
 ]
 ```
 
