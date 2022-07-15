@@ -30,7 +30,7 @@ You have been tasked with writing a script that will be run at the end of every 
 
 1. Fetch the source data
 
-The source data can be accessed by sending a ```HTTP GET``` request to ```https://timetracking.bluefruit.software/api/days```
+The source data can be accessed by sending an ```HTTP GET``` request to ```https://timetracking.bluefruit.software/api/days```
 
 The returned JSON data will be formatted as below:
 
@@ -78,9 +78,9 @@ date,synth,fridge
 
 3. Upload the CSV
 
-Upload the CSV data using a ```HTTP PUT``` request to ```https://accounts.bluefruit.software/upload/<id>.csv``` where ```id``` is a UUID (or GUID) you have generated.
+Upload the CSV data using an ```HTTP PUT``` request to ```https://accounts.bluefruit.software/upload/<id>.csv``` where ```id``` is a UUID (or GUID) you have generated.
 
-The ```PUT``` request will require a key sent as a HTTP header to allow the data to be uploaded.
+The ```PUT``` request will require a key sent as an HTTP header to allow the data to be uploaded.
 
 ```upload-key:95341ee6-4efc-4148-9619-b4b800b9eeb6```
 
