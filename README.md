@@ -30,7 +30,7 @@ You have been tasked with writing a script that will be run at the end of every 
 
 1. Fetch the source data
 
-The souce data can be access by sending a ```HTTP GET``` request to ```https://timetracking.bluefruit.software/api/days```
+The source data can be accessed by sending a ```HTTP GET``` request to ```https://timetracking.bluefruit.software/api/days```
 
 The returned JSON data will be formatted as below:
 
